@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I'm Sorry</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fff0f5, #ffe6f0);
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 30px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    h1 {
+      color: #d63384;
+      margin-bottom: 20px;
+    }
+
+    .apology-text {
+      font-size: 18px;
+      color: #444;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-top: 20px;
+      line-height: 1.7;
+    }
+
+    .apology-img {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+      margin: 20px auto;
+      display: block;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    .floating {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      opacity: 0.6;
+      animation: float 8s linear infinite;
+      z-index: 0;
+    }
+
+    .item1 { top: -50px; left: 5%; animation-delay: 0s; }
+    .item2 { top: -50px; left: 20%; animation-delay: 1s; }
+    .item3 { top: -50px; left: 40%; animation-delay: 2s; }
+    .item4 { top: -50px; left: 60%; animation-delay: 3s; }
+    .item5 { top: -50px; left: 80%; animation-delay: 4s; }
+    .item6 { top: -50px; left: 95%; animation-delay: 5s; }
+
+    @keyframes float {
+      0% {
+        transform: translateY(0) scale(1);
+        opacity: 0;
+      }
+      30% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(120vh) scale(1.3);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating cats and hearts (all working images) -->
+  <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" class="floating item1">
+  <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" class="floating item2">
+  <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" class="floating item3">
+  <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" class="floating item4">
+  <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" class="floating item5">
+  <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" class="floating item6">
+
+  <div class="container">
+    <h1>I'm Sorry 💔</h1>
+    <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Sad Cat" class="apology-img">
+    <div class="apology-text">
+      <p>I'm sorry for everything I have done — I mean it.</p>
+      <p>I won’t deny that I treated you badly.<br>
+      I won’t deny that I turned you down.<br>
+      I won’t deny that I’ve let you down and made you feel worse.</p>
+      <p>I won’t deny that I didn’t give you the love you actually deserved.</p>
+      <p>I'm sorry for all the things I shouldn't have done.</p>
+      <p>But there was once a time we were the best couple to ever exist.</p>
+      <p>We weren’t just lovers — we were besties, we were buddies, we were everything to each other.</p>
+      <p>Can we fix everything and go back to that time?<br>
+      I won’t pretend like nothing happened — a lot did — and I take full responsibility for it.</p>
+    </div>
+<a href="proposal.html">
+  <button style="margin-top: 30px; padding: 12px 24px; font-size: 16px; background: #e75480; color: white; border: none; border-radius: 6px;">
+    Next →
+  </button>
+</a>
+  </div>
+
+</body>
+</html>

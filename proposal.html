@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Proposal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fff0f5, #fcefee);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 30px;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      color: #d63384;
+      font-size: 32px;
+      margin-bottom: 20px;
+      animation: fadeIn 2s ease-in;
+    }
+
+    .proposal-text {
+      font-size: 18px;
+      color: #444;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      line-height: 1.7;
+      animation: fadeInUp 1.5s ease;
+      max-width: 750px;
+    }
+
+    .button {
+      margin-top: 30px;
+      padding: 12px 24px;
+      background: #ff5eaa;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #e04e95;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: scale(0.9); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Will You Be Mine Again? 💍</h1>
+
+  <div class="proposal-text">
+    <p>I know we had our differences, and going back to what we were before is not that easy.</p>
+    <p>But in every life, I’ll choose you.</p>
+    <p>We have our religion difference which is going to be very hard to overcome, but I promise — if you stand by me, we can both overcome those problems easily.</p>
+    <p>We can have our dream home and family, just like we always planned from the start.</p>
+    <p>I promise I’ll come to you next year, and I’ll make it up for all the mistakes that I have done.</p>
+    <p style="font-weight: bold; font-size: 20px; color: #e91e63;">So... will you be mine again? :3 💍</p>
+  </div>
+
+  <button class="button" onclick="alert('I’ll wait for your answer, no matter how long it takes. 💗')">💖 Yes / Maybe? 💖</button>
+
+</body>
+</html>
